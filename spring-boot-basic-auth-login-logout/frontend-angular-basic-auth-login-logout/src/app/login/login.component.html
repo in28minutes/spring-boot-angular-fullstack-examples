@@ -1,0 +1,9 @@
+<app-menu></app-menu>
+<h1>Login</h1>
+<div class="container">
+  <div class="alert alert-warning" *ngIf='invalidLogin' >{{errorMessage}}</div>
+  <div class="alert" *ngIf='loginSuccess'>Login Sucessful</div>
+  User Name: <input [(ngModel)]="username" />
+  Password: <input [(ngModel)]="password" />
+  <button (click)=handleLogin() class="btn btn-success">Login</button>
+</div>

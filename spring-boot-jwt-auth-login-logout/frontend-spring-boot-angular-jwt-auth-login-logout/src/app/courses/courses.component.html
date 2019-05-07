@@ -1,0 +1,21 @@
+<app-menu></app-menu>
+<div class="container">
+  <h3>All Courses</h3>
+  <div class="container">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let course of courses">
+          <td>{{course.id}}</td>
+          <td>{{course.description}}</td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+</div>

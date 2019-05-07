@@ -1,0 +1,20 @@
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div>
+          <a href="http://www.in28minutes.com" class="navbar-brand">in28Minutes</a>
+      </div>
+      <ul class="navbar-nav">
+          <li>
+              <a *ngIf="isLoggedIn" class="nav-link" href="/courses">Courses</a>
+          </li>
+      </ul>
+      <ul class="navbar-nav navbar-collapse justify-content-end">
+          <li>
+              <a *ngIf="!isLoggedIn" class="nav-link" href="/login">Login</a>
+          </li>
+          <li>
+              <a *ngIf="isLoggedIn" class="nav-link" href="/logout" (click)=handleLogout()>Logout</a>
+          </li>
+      </ul>
+  </nav>
+</header>
