@@ -31,8 +31,6 @@ You can check out all our courses here - [https://github.com/in28minutes/learn](
 - [Learning Path 05 - Learn AWS with Microservices, Docker and Kubernetes](https://rebrand.ly/in28minutes-LP-05)
 
 
-
-
 ### Installing Eclipse & Embedded Maven
 - Installation Video : https://www.youtube.com/playlist?list=PLBBog2r6uMCSmMVTW_QmDLyASBvovyAO3
 - GIT Repository For Installation : https://github.com/in28minutes/getting-started-in-5-steps
